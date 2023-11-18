@@ -23,7 +23,7 @@ spec:
   datacenterRef:
     kind: CloudStackDatacenterConfig
     name: main-i-01b5b-1b2d45b
-  eksaVersion: v0.0.0-dev+build.7888
+  eksaVersion: v0.0.0-dev+build.7889
   externalEtcdConfiguration:
     count: 1
     machineGroupRef:
@@ -32,7 +32,7 @@ spec:
   gitOpsRef:
     kind: FluxConfig
     name: eksa-test
-  kubernetesVersion: "1.24"
+  kubernetesVersion: "1.25"
   machineHealthCheck:
     nodeStartupTimeout: 10m0s
     unhealthyMachineTimeout: 5m0s
@@ -75,7 +75,7 @@ spec:
   computeOffering:
     name: Large Instance
   template:
-    name: kubernetes-1-24-eks-30-redhat
+    name: kubernetes-1-25-eks-26-redhat
   users:
   - name: capc
     sshAuthorizedKeys:
@@ -94,7 +94,7 @@ spec:
   computeOffering:
     name: Large Instance
   template:
-    name: kubernetes-1-24-eks-30-redhat
+    name: kubernetes-1-25-eks-26-redhat
   users:
   - name: capc
     sshAuthorizedKeys:
@@ -111,7 +111,7 @@ spec:
   computeOffering:
     name: Large Instance
   template:
-    name: kubernetes-1-24-eks-30-redhat
+    name: kubernetes-1-25-eks-26-redhat
   users:
   - name: capc
     sshAuthorizedKeys:
